@@ -1,3 +1,5 @@
+'use strict';
+
 function getElementWidth(content, padding, border) {
     return getFloat(content) + getFloat(padding) * 2 + getFloat(border) * 2;
 }
